@@ -1,9 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 This project create form in react with [Material-UI](https://material-ui.com/) and [Formik Form](https://jaredpalmer.com/formik)
-
-## Available Scripts
-
-In the project directory, you can run:
 
 ### `git clone`
 
