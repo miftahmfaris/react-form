@@ -12,6 +12,7 @@ import Grid from "@material-ui/core/Grid";
 import LockOutlinedIcon from "@material-ui/icons/LockOutlined";
 import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
+import { NavLink } from "react-router-dom";
 
 function Copyright() {
     return (
@@ -147,9 +148,13 @@ export default function SignInSide() {
                                 </Link>
                             </Grid>
                             <Grid item>
-                                <Link href="#" variant="body2">
+                                <NavLink
+                                    to="/sign-up"
+                                    variant="body2"
+                                    style={{ textDecoration: "none" }}
+                                >
                                     {"Don't have an account? Sign Up"}
-                                </Link>
+                                </NavLink>
                             </Grid>
                         </Grid>
                         <Box mt={5}>
